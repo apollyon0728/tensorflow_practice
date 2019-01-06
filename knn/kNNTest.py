@@ -1,3 +1,6 @@
+# 本例子下面使用了多种算法（决策树、随机森林、K近邻..），计算较慢
+# KNN的可以跑 kNNTest-1.py 只使用了knn
+
 import numpy as np
 import pandas as pd
 import os
