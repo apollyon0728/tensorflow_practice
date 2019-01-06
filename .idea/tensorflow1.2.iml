@@ -1,8 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.5.2 (~/Anaconda/anaconda/envs/python3_5/bin/python3.5)" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/basic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CV" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GAN" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/other" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/chat_bot_seq2seq_attention" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/chat_bot_seq2seq_attention/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CV/ResNet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GAN/seqgan" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/other/rl_morzan" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-A2C-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-A3C-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-AC-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-DDPG" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-DRQN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-MADDPG-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-Policy-Network" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Basic-PPO-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Double-DQN-demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/DQN-demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/DQN-maze" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Dueling DQN Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/my_q_learning_new" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/myPtrNetwork" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/pointer-network-tensorflow-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Policy_Gradient" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Prioritized_Replay_DQN_demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/Q-learning-new" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/SARSA" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/sarsa_lambda" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-AFM-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-Bandit-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-BPR-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DCN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DeepFM-model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DIEN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DIN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-DKN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-Evaluation-metrics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-FTRL-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-IRGAN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-MKR-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-MLR-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-NCF-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-NFM-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-PNN-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-RippleNet-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/Basic-XDeepFM-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/GBDT+LR-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/recommendation-FFM-Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/recommendation/recommendation-FM-demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/chat_bot_seq2seq_attention/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nlp/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RL/pointer-network-tensorflow-master/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/knn" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
