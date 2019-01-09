@@ -6,7 +6,7 @@ mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
 
 
 def compute_accuracy(v_xs,v_ys,sess):
-    #prediction 变为全剧变量
+    #prediction 变为全局变量
     global prediction
     y_pre = sess.run(prediction,feed_dict={xs:v_xs,keep_prob:1})
     #预测值每行是10列，tf.argmax(数据，axis），相等为1，不想等为0

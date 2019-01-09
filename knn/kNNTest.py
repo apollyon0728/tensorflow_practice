@@ -1,5 +1,6 @@
 # 本例子下面使用了多种算法（决策树、随机森林、K近邻..），计算较慢
 # KNN的可以跑 kNNTest-1.py 只使用了knn
+# 参考 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
 
 import numpy as np
 import pandas as pd
@@ -37,8 +38,8 @@ model_3 = KNeighborsClassifier(n_neighbors=5)
 model_4 = AdaBoostClassifier(random_state=100, n_estimators=800)
 a = (model_1, model_2, model_3, model_4)
 for i in a:
-    i.fit(train_x1, train_y1)
-    pred_test = i.predict(test_x1)
+    i.fit(train_x1, train_y1)   # 使用X作为训练数据并使用y作为目标值来拟合模型
+    pred_test = i.predict(test_x1)  # 预测所提供数据的类标签
     a = accuracy_score(test_y1, pred_test)
     df.append(a)
 

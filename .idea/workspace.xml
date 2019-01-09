@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f12537-6c3d-43b1-a62a-ad07d70a14cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/input/sample_submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/kNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/kNNTest-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knn/kNNTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bp/LRTest-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/lr/testingSample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/lr/trainingSample.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorflow1.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GAN/seqgan/seqgan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/GAN/seqgan/seqgan.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/CV/CNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RL/pointer-network-tensorflow-master/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/RL/pointer-network-tensorflow-master/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knn/kNNTest-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn/kNNTest-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knn/kNNTest-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn/kNNTest-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knn/kNNTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn/kNNTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp/LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp/LSTM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention/predict.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tensorflow_practice$kNNTest_1.coverage" NAME="kNNTest-1 Coverage Results" MODIFIED="1546754197217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$kNNTest_1.coverage" NAME="kNNTest-1 Coverage Results" MODIFIED="1546778688988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$train.coverage" NAME="train Coverage Results" MODIFIED="1544166713566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1544949268922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/myPtrNetwork" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$plotResult.coverage" NAME="plotResult Coverage Results" MODIFIED="1529723400750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
@@ -35,6 +35,7 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$mlr.coverage" NAME="mlr Coverage Results" MODIFIED="1529722291768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$tf_data_demo.coverage" NAME="tf_data_demo Coverage Results" MODIFIED="1528181619719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-NCF-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$RNN_static_cell.coverage" NAME="RNN_static_cell Coverage Results" MODIFIED="1544171918871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$fileTest_1.coverage" NAME="fileTest-1 Coverage Results" MODIFIED="1546772771453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fileTest" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$news_preprocess.coverage" NAME="news_preprocess Coverage Results" MODIFIED="1541602017949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/news" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$compareAC.coverage" NAME="compareAC Coverage Results" MODIFIED="1543484381532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$multi_task_joint_training.coverage" NAME="multi-task-joint-training Coverage Results" MODIFIED="1533110252951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/multi-task-Demo" />
@@ -42,7 +43,7 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$main.coverage" NAME="main Coverage Results" MODIFIED="1541655400725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1541947722414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$netease.coverage" NAME="netease Coverage Results" MODIFIED="1534173544289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation" />
-    <SUITE FILE_PATH="coverage/tensorflow_practice$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1544170153226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1546776413215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$prepare_data_for_transx.coverage" NAME="prepare_data_for_transx Coverage Results" MODIFIED="1541603869565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1542602954609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MKR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$A3C.coverage" NAME="A3C Coverage Results" MODIFIED="1543484075025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-A3C-Demo" />
@@ -53,6 +54,7 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$DRQN.coverage" NAME="DRQN Coverage Results" MODIFIED="1530434931296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-DRQN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$resnet_mnist.coverage" NAME="resnet_mnist Coverage Results" MODIFIED="1540611064870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CV/ResNet" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$cf_gan.coverage" NAME="cf_gan Coverage Results" MODIFIED="1537765219138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$kNNTest_3.coverage" NAME="kNNTest-3 Coverage Results" MODIFIED="1546762661183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1541940517652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-RippleNet-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$gen_model.coverage" NAME="gen_model Coverage Results" MODIFIED="1532186281780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-IRGAN-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$predict.coverage" NAME="predict Coverage Results" MODIFIED="1544180776817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention" />
@@ -61,47 +63,67 @@
     <SUITE FILE_PATH="coverage/tensorflow1_2$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1542614921574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MKR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$lr.coverage" NAME="lr Coverage Results" MODIFIED="1529722387251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
     <SUITE FILE_PATH="coverage/tensorflow_practice$RNN_simple.coverage" NAME="RNN_simple Coverage Results" MODIFIED="1544170490527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nlp" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$kNNTest_2.coverage" NAME="kNNTest-2 Coverage Results" MODIFIED="1546828948567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/knn" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$data_loader.coverage" NAME="data_loader Coverage Results" MODIFIED="1541647709452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo" />
+    <SUITE FILE_PATH="coverage/tensorflow_practice$Nosetests_in_bpTest_1_py.coverage" NAME="Nosetests in bpTest-1.py Coverage Results" MODIFIED="1547017832302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bp" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$tf_practice.coverage" NAME="tf_practice Coverage Results" MODIFIED="1537593989869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-XDeepFM-Demo/test_some_code" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$kg_preprocess.coverage" NAME="kg_preprocess Coverage Results" MODIFIED="1541604856562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recommendation/Basic-DKN-Demo/kg" />
     <SUITE FILE_PATH="coverage/tensorflow1_2$simple_PPO.coverage" NAME="simple-PPO Coverage Results" MODIFIED="1543323533617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL/Basic-PPO-Demo" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="739767934">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="checkpoint" value="1" />
-          <entry key="csv" value="1" />
+          <entry key="csv" value="3" />
           <entry key="index" value="1" />
           <entry key="pkl" value="3" />
-          <entry key="py" value="31" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="55" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="31" />
+          <entry key="CSV" value="1" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="570" />
+          <entry key="py" value="1243" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="570" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="1243" />
         </counts>
       </usages-collector>
     </session>
@@ -109,101 +131,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp/basic_seq2seq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11286">
-              <caret line="346" column="47" selection-start-line="346" selection-start-column="47" selection-end-line="346" selection-end-column="47" />
-              <folding>
-                <element signature="e#30#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RL/myPtrNetwork/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knn/kNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1546741188889" expanded="true" signature="58:63" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knn/kNNTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="49" column="74" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/text/618值班/双11值班监控套装/自动查询-双11-python 3.6/dbquery-自动查询/down_sql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/knn/kNNTest-1.py">
+        <entry file="file://$PROJECT_DIR$/bp/LRTest-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2107">
-              <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+            <state>
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="27" />
               <folding>
-                <element signature="e#283#318#0" expanded="true" />
+                <element signature="e#63#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/neighbors/classification.py">
+        <entry file="file://$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8998">
-              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/neighbors/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp/LSTM_Regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/tensorflow/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="95">
+              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -222,10 +183,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ou</find>
-      <find>out</find>
-      <find>46</find>
-      <find>5956</find>
       <find>save</find>
       <find>next_hidden</find>
       <find>hidden_nn_layers</find>
@@ -249,6 +206,13 @@
       <find>import model</find>
       <find>../input/kNN/</find>
       <find>KNeighborsClassifier</find>
+      <find>iloc</find>
+      <find>path</find>
+      <find>nose</find>
+      <find>testing_sample</find>
+      <find>testingSample</find>
+      <find>sigmoid</find>
+      <find>x2</find>
     </findStrings>
     <replaceStrings>
       <replace>../input/</replace>
@@ -262,16 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CV/CNN.py" />
-        <option value="$PROJECT_DIR$/CV/ResNet/resnet_mnist.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/shuffle.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIN-Demo/model.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/VecAttGruCell.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/rnn.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/vecAttGruCell.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/data_iterator.py" />
-        <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/Dice.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/utils.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/train.py" />
         <option value="$PROJECT_DIR$/recommendation/Basic-DIEN-Demo/GruCell.py" />
@@ -311,8 +265,18 @@
         <option value="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention/predict.py" />
         <option value="$PROJECT_DIR$/knn/kNN.py" />
         <option value="$PROJECT_DIR$/knn/knnTest.py" />
-        <option value="$PROJECT_DIR$/knn/kNNTest.py" />
+        <option value="$PROJECT_DIR$/CV/CNN.py" />
+        <option value="$PROJECT_DIR$/knn/kNNTest-3.py" />
+        <option value="$PROJECT_DIR$/fileTest/1.txt" />
+        <option value="$PROJECT_DIR$/fileTest/fileTest-1.py" />
+        <option value="$PROJECT_DIR$/nlp/LSTM.py" />
         <option value="$PROJECT_DIR$/knn/kNNTest-1.py" />
+        <option value="$PROJECT_DIR$/knn/kNNTest.py" />
+        <option value="$PROJECT_DIR$/knn/kNNTest-2.py" />
+        <option value="$PROJECT_DIR$/input/bp/trainingSample.txt" />
+        <option value="$PROJECT_DIR$/input/bp/testingSample.txt" />
+        <option value="$PROJECT_DIR$/bp/bpTest-1.py" />
+        <option value="$PROJECT_DIR$/bp/LRTest-1.py" />
       </list>
     </option>
   </component>
@@ -323,8 +287,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-2" />
+    <option name="x" value="-123" />
+    <option name="y" value="-8" />
     <option name="width" value="1938" />
     <option name="height" value="1003" />
   </component>
@@ -333,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,18 +308,39 @@
             <path>
               <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="bp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
               <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="lr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
               <item name="knn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic-MLR-Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,8 +378,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kNNTest-1">
-    <configuration name="RNN_static_cell" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.lr">
+    <configuration name="LSTM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,9 +392,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/RNN_static_cell.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/LSTM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="tensorflow1.2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -437,7 +445,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kNNTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kNNTest-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,7 +458,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/kNNTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn/kNNTest-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -459,64 +467,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL/myPtrNetwork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL/myPtrNetwork/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Nosetests in LRTest-1.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="tensorflow1.2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nlp/chat_bot_seq2seq_attention/predict.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/bp/LRTest-1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.predict" />
-      <item itemvalue="Python.RNN_static_cell" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.kNNTest" />
       <item itemvalue="Python.kNNTest-1" />
+      <item itemvalue="Python.kNNTest-2" />
+      <item itemvalue="Python.LSTM" />
+      <item itemvalue="Python tests.Nosetests in LRTest-1.py" />
+      <item itemvalue="Python.lr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lr" />
+        <item itemvalue="Python tests.Nosetests in LRTest-1.py" />
+        <item itemvalue="Python.kNNTest-2" />
         <item itemvalue="Python.kNNTest-1" />
-        <item itemvalue="Python.kNNTest" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.predict" />
-        <item itemvalue="Python.RNN_static_cell" />
+        <item itemvalue="Python.LSTM" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +530,54 @@
       <option name="presentableId" value="Default" />
       <updated>1525062397913</updated>
     </task>
+    <task id="LOCAL-00001" summary="knn test">
+      <created>1546754700308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546754700308</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[test] 文件读取 &amp; knn">
+      <created>1546772828441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546772828441</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 14h 53m 44s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 14h 56m 43s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 14h 57m 09s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 14h 58m 02s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 14h 59m 14s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 15h 03m 20s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 15h 03m 31s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 15h 06m 08s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 15h 09m 14s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_bpTest-1_py - 2019.01.09 at 15h 10m 34s.xml">
+      <configuration name="Nosetests in bpTest-1.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,32 +589,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28379828" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28846154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970588" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3812217" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3969957" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32889965" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23458283" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26357466" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32889965" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3280543" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.17596567" />
-      <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.3299356" />
+      <window_info anchor="right" x="0" y="0" width="434" height="850" id="Documentation" order="0" side_tool="true" weight="0.19420601" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.17596567" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.21781115" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,6 +622,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="knn test" />
+    <MESSAGE value="[test] 文件读取 &amp; knn" />
+    <option name="LAST_COMMIT_MESSAGE" value="[test] 文件读取 &amp; knn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,6 +651,11 @@
           <line>44</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/knn/kNNTest-1.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -611,93 +667,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data/ratings_final.txt" />
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data/kg_final.txt" />
-    <entry file="file://$PROJECT_DIR$/nlp/RNN_dynamic_cell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="76" lean-forward="true" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1142">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="89" column="32" selection-start-line="70" selection-start-column="8" selection-end-line="89" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MKR-Demo/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-PPO-Demo/simple-PPO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/run_CartPole.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/Actor.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/Critic.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-AC-Demo.py" />
-    <entry file="file://$USER_HOME$/Anaconda/anaconda/lib/python3.6/site-packages/tensorflow/python/client/session.py" />
-    <entry file="file://$PROJECT_DIR$/RL/ac_reward.csv" />
-    <entry file="file://$PROJECT_DIR$/RL/a2c_reward.csv" />
-    <entry file="file://$PROJECT_DIR$/RL/compareAC.py" />
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A2C-Demo/A2C.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="155" selection-start-line="155" selection-end-line="155" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-AC-Demo/AC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RL/Basic-A3C-Demo/A3C.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5643">
-          <caret line="179" column="23" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RL/Basic-Policy-Network/RL_brain.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -706,11 +675,6 @@
         <state relative-caret-position="462">
           <caret line="16" selection-end-line="64" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CV/CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nlp/data/对联.txt">
@@ -799,43 +763,10 @@
     <entry file="file://$PROJECT_DIR$/recommendation/Basic-AFM-Demo/AFM.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/RNN_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/train.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/LSTM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nlp/basic_seq2seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11286">
-          <caret line="346" column="47" selection-start-line="346" selection-start-column="47" selection-end-line="346" selection-end-column="47" />
-          <folding>
-            <element signature="e#30#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RL/myPtrNetwork/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,10 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1546741188889" expanded="true" signature="58:63" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,19 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1089">
           <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn/kNNTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="49" column="74" selection-start-line="49" selection-start-column="74" selection-end-line="49" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,19 +799,206 @@
         <state relative-caret-position="-352" />
       </provider>
     </entry>
-    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/neighbors/classification.py">
+    <entry file="file://$PROJECT_DIR$/nlp/basic_seq2seq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8998">
-          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="345" column="43" selection-start-line="345" selection-start-column="43" selection-end-line="345" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CV/CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1308">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/matplotlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2178" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTest/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTest/fileTest-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp/RNN_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp/LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582" />
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/train.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/kNNTest-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/sample_submission.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="3795">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107217">
+          <caret line="3326" column="8" selection-start-line="3326" selection-start-column="8" selection-end-line="3326" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/pandas/core/indexes/multi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53757">
+          <caret line="1669" column="8" selection-start-line="1669" selection-start-column="8" selection-end-line="1669" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24156">
+          <caret line="760" column="8" selection-start-line="760" selection-start-column="8" selection-end-line="760" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70389">
+          <caret line="2152" column="19" selection-start-line="2152" selection-start-column="19" selection-end-line="2152" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/utils/mocking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/kNNTest-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/knn/kNNTest-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2107">
-          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+        <state relative-caret-position="3102">
+          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/site-packages/sklearn/neighbors/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/text/618值班/双11值班监控套装/自动查询-双11-python 3.6/dbquery-自动查询/down_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_nosetest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knn/kNNTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/lr/testingSample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/lr/trainingSample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/Anaconda/envs/tf3.6/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/Basic-MLR-Demo/lr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding>
-            <element signature="e#283#318#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bp/LRTest-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#63#82#0" expanded="true" />
           </folding>
         </state>
       </provider>

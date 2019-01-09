@@ -1,5 +1,6 @@
 import tensorflow as tf
-from data_helpers import loadDataset, getBatches, sentence2enco
+# from data_helpers import loadDataset, getBatches, sentence2enco
+from data_loader import loadDataset, getBatches, sentence2enco
 from model import Seq2SeqModel
 import sys
 import numpy as np
@@ -13,7 +14,7 @@ tf.app.flags.DEFINE_float('learning_rate', 0.0001, 'Learning rate')
 tf.app.flags.DEFINE_integer('batch_size', 128, 'Batch size')
 tf.app.flags.DEFINE_integer('numEpochs', 30, 'Maximum # of training epochs')
 tf.app.flags.DEFINE_integer('steps_per_checkpoint', 100, 'Save model checkpoint every this iteration')
-tf.app.flags.DEFINE_string('model_dir', 'model/', 'Path to save model checkpoints')
+tf.app.flags.DEFINE_string('model_dir', '/model/', 'Path to save model checkpoints')
 tf.app.flags.DEFINE_string('model_name', 'chatbot.ckpt', 'File name used for model checkpoints')
 FLAGS = tf.app.flags.FLAGS
 

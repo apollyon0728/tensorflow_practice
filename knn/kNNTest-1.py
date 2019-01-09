@@ -44,7 +44,8 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 first_digit = train_main.iloc[1].drop('label').values.reshape(28, 28)
-print(plt.imshow(first_digit))
+plt.imshow(first_digit)
+# plt.show()
 
 # In[7]:
 

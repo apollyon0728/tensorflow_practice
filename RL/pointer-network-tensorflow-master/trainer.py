@@ -4,9 +4,10 @@ from tqdm import trange
 import tensorflow as tf
 from tensorflow.contrib.framework.python.ops import arg_scope
 
-from model import Model
-from utils import show_all_variables
-from data_loader import TSPDataLoader
+from RL.myPtrNetwork.model import Model
+from RL.myPtrNetwork.utils import show_all_variables
+from RL.myPtrNetwork.data_loader import TSPDataLoader
+
 
 class Trainer(object):
   def __init__(self, config, rng):

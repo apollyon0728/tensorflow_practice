@@ -43,11 +43,13 @@ from sklearn.model_selection import train_test_split
 
 import matplotlib.pyplot as plt
 
+original_digit = train_main.iloc[1].values
+print(original_digit)
+
 zero_digit = train_main.iloc[0].drop('label').values.reshape(28, 28)
 plt.imshow(zero_digit)
-plt.show()
+# plt.show()
 
-
-# first_digit = train_main.iloc[1].drop('label').values.reshape(28, 28)
-# print(plt.imshow(first_digit))
+first_digit = train_main.iloc[130].drop('label').values.reshape(28, 28)
+plt.imshow(first_digit)
 # plt.show()
