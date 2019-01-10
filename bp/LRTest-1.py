@@ -12,12 +12,12 @@ testing_sample = 'testingSample.txt'
 
 # 从文件中读入训练样本的数据，同上面给出的示例数据
 # 下面第20行代码中的1.0表示x0 = 1
-def loadDataSet(p, file_n):
+def loadDataSet(p, file_n):  # 根据文件路径、文件名加载文件
     dataMat = []
     labelMat = []
     fr = open(os.path.join(p, file_n))
     for line in fr.readlines():
-        lineArr = line.strip().split()
+        lineArr = line.strip().split()  # 去除回车空格？
         dataMat.append([1.0, float(lineArr[0]), float(lineArr[1])])  # 三个特征x0, x1, x2
         labelMat.append(int(lineArr[2]))  # 标准答案y
     return dataMat, labelMat
@@ -69,7 +69,7 @@ def plotBestFit(weights):
     ax.plot(x.reshape(1, -1), y.reshape(1, -1))
     plt.xlabel('X1')
     plt.ylabel('X2')
-    plt.show()
+    # plt.show()
 
 
 # 下面是我自己写的测试函数
